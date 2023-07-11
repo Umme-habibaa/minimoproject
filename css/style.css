@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+header{
+
+margin: auto;
+
+width: 90%;
+
+background-color: white;
+
+display: flex;
+
+justify-content: space-between;
+
+padding-top: 25px;
+
+padding-bottom: 25px;
+}
+
+.logo{
+
+width: 20%;
+}
+
+.menu{
+
+width: 50%;
+}
+
+.menu ul{
+
+list-style-type: none;
+
+display: flex;
+
+justify-content: end;
+}
+
+.menu ul li{
+
+}
+.menu ul li a{
+    
+margin-left: 50px;
+    
+color: #000;
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+}
+
+.banner{
+
+  width: 90%;
+ margin: auto;
+    
+}
+
+.banner img{
+width: 100%;
+}
+
+.photodariry{
+width: 80%;
+    
+margin: auto;
+    
+padding: 10px 0;
+    
+font-size: 14px;
+    
+text-align: left;
+    
+text-transform: uppercase;
+    
+color: #b4ad9e;
+
+margin-top: 25px;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.the_perfect{
+    width: 80%;
+    
+    margin: auto;
+        
+    padding: 10px 0;
+        
+    font-size: 30px;
+        
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+
+.lorem{
+    width: 80%;
+    
+margin: auto;
+    
+padding: 10px 0;
+    
+color: #626262;
+    
+font-size: 14px;
+font-family: 'Playfair Display', serif;
+line-height: 24px;
+}
+
+.leave{
+    width: 80%;
+    
+    /* margin-top: auto; */
+        
+    padding: 10px 0;
+        
+    margin: auto;
+        
+    color: #b4ad9e;
+        
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.feature{
+    display: flex;
+
+    width: 80%;
+    
+    margin: auto;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+
+
+.items{
+    width: 48%;
+
+    font-size: 14px;
+    
+    margin-bottom: 22px;
+    margin-top: 70px;
+    }
+    
+    .items h5{
+    
+    color: #b4ad9e;
+    
+    font-size: 14px;
+    
+    text-transform: uppercase;
+    
+    font-weight: 400;
+    
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .items h1{
+    
+    color: #626262;
+    
+    font-size: 30px;
+    
+    margin: 25px 0;
+    font-family: 'Playfair Display', serif;
+    }
+    
+    .items p{
+    
+    color: #626262;
+    
+    font-size: 14px;
+    
+    margin-bottom: 20px;
+ font-family: 'Playfair Display', serif;
+    line-height: 24px;
+    }
+    
+    .items img{
+        
+    width: 100%;
+    }
+
+    .newslatter{
+        background-color: #f0f0f0; 
+
+        padding: 80px 0;
+        
+        background: #f0f0f0;
+
+        margin-top: 70px;
+        
+        }
+            
+         .content{
+        
+        width: 21%;
+        
+        margin: auto;
+        
+        text-align: center;
+        
+        color: #626262;
+        
+        }
+        
+        .content h1{
+        
+        color: #626262;
+        }
+        
+        .content input{
+            
+        background: transparent;
+            
+        border: none;
+            
+        border-bottom: 1px solid #000;
+            
+        width: 100%;
+            
+        margin-top: 50px;
+        padding: 5px 0;
+        }
+
+        .content input::placeholder{
+            color: #626262;
+            font-family:  'Playfair Display', serif;
+
+        }
+
+        .content :focus{
+            outline: none;
+        }
+
+        .loadmore{
+            margin: 100px auto;
+
+text-align: center;
+
+}
+
+        .loadmore button{
+            
+padding: 15px 20px;
+            
+color: #626262;
+            
+background: transparent;
+            
+text-transform: capitalize;
+            
+border: 1px solid #000;
+font-family:'Playfair Display', serif;
+font-size: 18px;
+        }
+
+ footer{
+background-color: #f0f0f0;
+padding: 30px 0;
+ }
+
+ .footer_wrapper{
+width: 80%;
+display: flex;
+justify-content: space-between;
+margin: auto;
+ }
+
+ .terms{
+
+ }
+
+ .terms ul{
+list-style: none;
+display: flex;
+ }
+
+ .terms ul li{
+
+ }
+
+ .terms ul li a{
+    color: #626262;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 30px;
+ }
+    
+ .social{
+
+ }
+
+ .social ul{
+list-style: none;
+display: flex;
+ }
+
+ .social ul li{
+
+ }
+
+ .social ul li a{
+    color: #626262;
+text-decoration: none;
+text-transform: capitalize;
+margin-left: 30px;
+
+ }
